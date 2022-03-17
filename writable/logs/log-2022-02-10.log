@@ -1,0 +1,7 @@
+CRITICAL - 2022-02-10 03:30:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 118
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(118): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

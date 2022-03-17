@@ -1,0 +1,35 @@
+CRITICAL - 2021-12-28 22:22:33 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 297
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(297): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 22:29:45 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F2.php on line 157
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F2.php(157): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F2->Formulir2()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F2))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 22:34:41 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\Cetak.php on line 39
+#0 C:\xampp\htdocs\psg_new\app\Controllers\Cetak.php(39): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\Cetak->index()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 22:40:46 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\Admin\Usulan.php on line 65
+#0 C:\xampp\htdocs\psg_new\app\Controllers\Admin\Usulan.php(65): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Usulan->ReportUsulan()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 22:41:21 --> Attempt to read property "nama" on null
+#0 C:\xampp\htdocs\psg_new\app\Controllers\Admin\Usulan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Usulan->ReportUsulan()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

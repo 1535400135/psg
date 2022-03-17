@@ -1,0 +1,370 @@
+ERROR - 2022-02-06 17:30:46 --> Column 'tahun' cannot be null
+CRITICAL - 2022-02-06 17:30:46 --> Column 'tahun' cannot be null
+#0 C:\xampp\htdocs\psg_new\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\psg_new\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\psg_new\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\psg_new\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\psg_new\app\Models\F1_model.php(165): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(277): App\Models\F1_model->insertSiswa('tb_smk', Array, 'tb_guru', Array)
+#6 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->save()
+#7 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#8 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-06 17:42:15 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\psg_new\app\Views\fsmk_up.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 235)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('fsmk_up', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Views\layout\v_content.php(3): view('fsmk_up')
+#5 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\psg_new\app\Views\layout\v_wrap.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_wrap', Array, true)
+#12 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(91): view('layout/v_wrap', Array)
+#13 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->index()
+#14 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#15 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-06 17:47:53 --> Undefined property: stdClass::$a
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->index()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 17:48:07 --> Undefined property: stdClass::$a
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->index()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 17:49:02 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\psg_new\app\Views\fsmk_up.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 235)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('fsmk_up', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Views\layout\v_content.php(3): view('fsmk_up')
+#5 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\psg_new\app\Views\layout\v_wrap.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_wrap', Array, true)
+#12 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(91): view('layout/v_wrap', Array)
+#13 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->index()
+#14 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#15 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-06 17:51:28 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\psg_new\app\Views\fsmk_up.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 235)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('fsmk_up', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Views\layout\v_content.php(3): view('fsmk_up')
+#5 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\psg_new\app\Views\layout\v_wrap.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_wrap', Array, true)
+#12 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(91): view('layout/v_wrap', Array)
+#13 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->index()
+#14 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#15 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-06 17:51:46 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\psg_new\app\Views\fsmk_up.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 235)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('fsmk_up', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Views\layout\v_content.php(3): view('fsmk_up')
+#5 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\psg_new\app\Views\layout\v_wrap.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_wrap', Array, true)
+#12 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(91): view('layout/v_wrap', Array)
+#13 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->index()
+#14 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#15 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-06 17:51:49 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\psg_new\app\Views\fsmk_up.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 235)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('fsmk_up', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Views\layout\v_content.php(3): view('fsmk_up')
+#5 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\psg_new\app\Views\layout\v_wrap.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_wrap', Array, true)
+#12 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(91): view('layout/v_wrap', Array)
+#13 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->index()
+#14 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#15 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-06 17:58:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\psg_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\psg_new\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(123): CodeIgniter\Model->__call('getRowF1EditSMK', Array)
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#5 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 17:58:49 --> Undefined variable $sekolah
+#0 C:\xampp\htdocs\psg_new\app\Views\f_smk_edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('f_smk_edit', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Views\layout\v_content.php(3): view('f_smk_edit')
+#5 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\psg_new\app\Views\layout\v_wrap.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_wrap', Array, true)
+#12 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(129): view('layout/v_wrap', Array)
+#13 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#14 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#15 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-06 17:59:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\psg_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\psg_new\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(126): CodeIgniter\Model->__call('getRowF1EditSMK', Array)
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#5 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 18:00:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\psg_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\psg_new\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(123): CodeIgniter\Model->__call('getRowF1EditSMK', Array)
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#5 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 18:00:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\psg_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\psg_new\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(123): CodeIgniter\Model->__call('getRowF1EditSMK', Array)
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#5 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-06 18:02:07 --> Unknown column 'tb_sekolah.id' in 'where clause'
+CRITICAL - 2022-02-06 18:02:07 --> Unknown column 'tb_sekolah.id' in 'where clause'
+#0 C:\xampp\htdocs\psg_new\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_seko...', 0)
+#1 C:\xampp\htdocs\psg_new\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_seko...')
+#2 C:\xampp\htdocs\psg_new\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_seko...')
+#3 C:\xampp\htdocs\psg_new\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `tb_seko...', Array, false)
+#4 C:\xampp\htdocs\psg_new\app\Models\F1_model.php(134): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(122): App\Models\F1_model->getDataF1EditSMK('1')
+#6 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#7 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#8 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-06 18:02:29 --> Unknown column 'tb_smk.id' in 'where clause'
+CRITICAL - 2022-02-06 18:02:29 --> Unknown column 'tb_smk.id' in 'where clause'
+#0 C:\xampp\htdocs\psg_new\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tb_seko...', 0)
+#1 C:\xampp\htdocs\psg_new\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_seko...')
+#2 C:\xampp\htdocs\psg_new\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_seko...')
+#3 C:\xampp\htdocs\psg_new\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `tb_seko...', Array, false)
+#4 C:\xampp\htdocs\psg_new\app\Models\F1_model.php(134): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(122): App\Models\F1_model->getDataF1EditSMK('1')
+#6 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#7 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#8 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-06 18:03:09 --> Unknown column 'tb_smk.id' in 'where clause'
+CRITICAL - 2022-02-06 18:03:09 --> Unknown column 'tb_smk.id' in 'where clause'
+#0 C:\xampp\htdocs\psg_new\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `a`.`xtr...', 0)
+#1 C:\xampp\htdocs\psg_new\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`xtr...')
+#2 C:\xampp\htdocs\psg_new\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`xtr...')
+#3 C:\xampp\htdocs\psg_new\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`xtr...', Array, false)
+#4 C:\xampp\htdocs\psg_new\app\Models\F1_model.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(123): App\Models\F1_model->getRowF1EditSMK('1')
+#6 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#7 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#8 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-06 18:04:21 --> Undefined variable $sekolah
+#0 C:\xampp\htdocs\psg_new\app\Views\f_smk_edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('f_smk_edit', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Views\layout\v_content.php(3): view('f_smk_edit')
+#5 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\psg_new\app\Views\layout\v_wrap.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('layout/v_wrap', Array, true)
+#12 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(129): view('layout/v_wrap', Array)
+#13 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->edit_smk('1')
+#14 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#15 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-06 18:55:55 --> Call to undefined method App\Controllers\F1::request()
+#0 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->update()
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-06 19:28:23 --> Undefined property: stdClass::$xl
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(446): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 446)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:30:16 --> Undefined property: stdClass::$tahun
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(451): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 451)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:32:27 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:34:01 --> Unclosed '{' on line 29
+#0 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('report_form1_sm...', Array, true)
+#2 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(458): view('report_form1_sm...', Array)
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#5 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-06 19:34:25 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:37:09 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:38:14 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:39:19 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:40:09 --> Undefined variable $rn
+#0 C:\xampp\htdocs\psg_new\app\Views\report_form1_smk.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('report_form1_sm...', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(458): view('report_form1_sm...', Array)
+#5 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#6 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#7 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-06 19:40:20 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:42:59 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:44:24 --> Undefined property: stdClass::$nip
+#0 C:\xampp\htdocs\psg_new\app\Views\report_form1_smk.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 224)
+#1 C:\xampp\htdocs\psg_new\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('report_form1_sm...', Array, true)
+#4 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(458): view('report_form1_sm...', Array)
+#5 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#6 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#7 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-06 19:45:31 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 19:45:45 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 20:08:24 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F1.php on line 459
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F1.php(459): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F1->Formulir1()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F1))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 20:11:36 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\F2.php on line 157
+#0 C:\xampp\htdocs\psg_new\app\Controllers\F2.php(157): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\F2->Formulir2()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\F2))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-06 20:12:18 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\Cetak.php on line 39
+#0 C:\xampp\htdocs\psg_new\app\Controllers\Cetak.php(39): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\Cetak->index()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

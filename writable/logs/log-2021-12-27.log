@@ -1,0 +1,116 @@
+CRITICAL - 2021-12-27 16:48:23 --> Class "App\Models\Home_model" not found
+#0 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-27 16:49:29 --> Class "App\Models\Home_model" not found
+#0 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-27 16:51:32 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:52:29 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:54:31 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:54:32 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:54:33 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:54:33 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:54:34 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:54:54 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:55:47 --> Class "App\Controllers\Controller" not found
+#0 C:\xampp\htdocs\psg_new\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\psg_new\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 C:\xampp\htdocs\psg_new\app\Controllers\Admin\Home.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#6 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#7 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#8 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-27 16:55:56 --> Class "App\Controllers\Admin\BaseController" not found
+#0 C:\xampp\htdocs\psg_new\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\psg_new\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/home')
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/home')
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 16:58:48 --> Class "Mpdf\Mpdf" not found
+#0 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Usulan->ReportUsulan()
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-27 17:01:28 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in C:\xampp\htdocs\psg_new\app\Controllers\Admin\Usulan.php on line 65
+#0 C:\xampp\htdocs\psg_new\app\Controllers\Admin\Usulan.php(65): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Usulan->ReportUsulan()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usulan))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 17:04:29 --> Attempt to read property "tahun" on null
+#0 C:\xampp\htdocs\psg_new\app\Controllers\Cetak.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(824): App\Controllers\Cetak->index()
+#2 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#3 C:\xampp\htdocs\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

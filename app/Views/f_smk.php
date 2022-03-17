@@ -1,0 +1,205 @@
+<section class="content">
+      <div class="container-fluid">
+        <div class="row">
+        	<div class="col-lg-12">
+        		<div class="card">
+              <div class="card-body">
+                <form role="form" action="<?= base_url('f1/save') ?>" method="post">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <?php foreach ($sekolah as $cekdata) { ?>
+                    	<div class="form-group">
+                        	<label>Nama Sekolah</label>
+                        	<input class="form-control" type="text" name="nis" id="nis" value="<?= $cekdata->nama_skl ?>" readonly ="">
+                    	</div>
+                    	<div class="form-group">
+                    		<label>Nama Kepala Sekolah</label>
+                    		<input class="form-control" type="text" name="nama_kep" id="nama" value="<?= $cekdata->namakep ?>" readonly="">
+                    	</div>
+                      <div class="form-group">
+                        <label>Nama Bendahara</label>
+                        <input type="text" name="nama_ben" class="form-control" value="<?= $cekdata->nama_ben ?>" readonly="">
+                      </div>
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-6">
+                            <label>Tahun</label>
+                            <select name="tahun" class="form-control">
+                              <?php $thn=date('Y')+3; $thnf=date('Y')-3; for ($i=$thnf; $i<=$thn; $i++) { ?>
+                              <option value="<?= $i ?>"><?= $i ?></option>
+                              <?php } ?>
+                            </select>
+                          </div>
+                          <div class="col-6">
+                            <label>Triwulan</label>
+                            <select name="tw" class="form-control">
+                              <option value="Triwulan 1">Triwulan 1</option>
+                              <option value="Triwulan 2">Triwulan 2</option>
+                              <option value="Triwulan 3">Triwulan 3</option>
+                              <option value="Triwulan 4">Triwulan 4</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <?php } ?>
+                    </div>
+                  	<div class="col-md-12"><label>Jumlah Siswa dan Rombel</label></div>
+                      <div class="col-md-6">
+                      <div class="form-group">
+                        <label>Siswa Kelas X Teknik</label>
+                        <div class="row">
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xtl" placeholder="Laki-Laki" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xtp" placeholder="Perempuan" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xtr" placeholder="Rombel" required="">
+                        </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Siswa Kelas XI Teknik</label>
+                        <div class="row">
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xitl" placeholder="Laki-Laki" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xitp" placeholder="Perempuan" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xitr" placeholder="Rombel" required="">
+                        </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Siswa Kelas XII Teknik</label>
+                        <div class="row">
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xiitl" placeholder="Laki-Laki" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xiitp" placeholder="Perempuan" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xiitr" placeholder="Rombel" required="">
+                        </div>
+                        </div>
+                      </div>
+                  	</div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label>Siswa Kelas X Non Teknik</label>
+                        <div class="row">
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xnl" placeholder="Laki-Laki" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xnp" placeholder="Perempuan" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xnr" placeholder="Rombel" required="">
+                        </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Siswa Kelas XI Non Teknik</label>
+                        <div class="row">
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xinl" placeholder="Laki-Laki" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xinp" placeholder="Perempuan" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xinr" placeholder="Rombel" required="">
+                        </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label>Siswa Kelas XII Non Teknik</label>
+                        <div class="row">
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xiinl" placeholder="Laki-Laki" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xiinp" placeholder="Perempuan" required="">
+                        </div>
+                        <div class="col-4">
+                        <input type="number" class="form-control" name="xiinr" placeholder="Rombel" required="">
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label>Jumlah Guru dan TU :</label>
+                      <div class="col-md-12">
+                        <div class="row">
+                        <div class="col-md-6"><label>Jenis Kelamin :</label></div>
+                        <div class="col-md-6"><label>Jenis Pendidikan :</label></div>
+                        </div>
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="col-3">
+                              <label>Laki-Laki</label>
+                              <input type="number" class="form-control" name="gl" placeholder="Laki-Laki" required>
+                            </div>
+                            <div class="col-3">
+                              <label>Perempuan</label>
+                              <input type="number" class="form-control" name="gp" placeholder="Perempuan" required>
+                            </div>
+                            <div class="col-2">
+                              <label>SMA/D3</label>
+                              <input type="number" class="form-control" name="sma_d3" placeholder="SMA/D3">
+                            </div>
+                            <div class="col-2">
+                              <label>S1</label>
+                              <input type="number" class="form-control" name="s1" placeholder="S1">
+                            </div>
+                            <div class="col-2">
+                              <label>S2</label>
+                              <input type="number" class="form-control" name="s2" placeholder="S2">
+                            </div>
+                          </div>                         
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="row">
+                        <div class="col-md-6"><label>Status PNS/Non PNS :</label></div>
+                        <div class="col-md-6"><label>Khusus SMK :</label></div>
+                        </div>
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="col-3">
+                              <label>PNS</label>
+                              <input type="number" class="form-control" name="pns" placeholder="PNS">
+                            </div>
+                            <div class="col-3">
+                              <label>Non PNS</label>
+                              <input type="number" class="form-control" name="non_pns" placeholder="Non PNS">
+                            </div>
+                            <div class="col-3">
+                              <label>Guru Produktif</label>
+                              <input type="number" class="form-control" name="gpd" placeholder="Produktif">
+                            </div>
+                            <div class="col-3">
+                              <label>Guru Normatif</label>
+                              <input type="number" class="form-control" name="gn" placeholder="Normatif">
+                            </div>
+                          </div>                         
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Simpan</button>
+                </div>
+                  </div>
+              </form>
+          </div>
+          </div> 
+</div>
+</div>
+</div>
+</section>
+</div>

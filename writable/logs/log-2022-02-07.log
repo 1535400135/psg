@@ -1,0 +1,12 @@
+ERROR - 2022-02-07 22:21:58 --> Error connecting to the database: Unknown database 'psg'
+CRITICAL - 2022-02-07 22:21:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'psg'
+#0 C:\wamp64\www\psg_new\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\psg_new\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\psg_new\app\Models\Login_model.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\psg_new\app\Controllers\Login.php(24): App\Models\Login_model->login('admin', 'admin')
+#4 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Login->cek_login()
+#5 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

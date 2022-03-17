@@ -1,0 +1,318 @@
+CRITICAL - 2022-02-08 18:49:02 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-08 18:50:59 --> Too few arguments to function App\Models\admin\ModelHome::getDana(), 1 passed in C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php on line 29 and exactly 3 expected
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php(29): App\Models\admin\ModelHome->getDana(1602)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 18:51:59 --> Too few arguments to function App\Models\admin\ModelHome::getDana(), 1 passed in C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php on line 47 and exactly 3 expected
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php(47): App\Models\admin\ModelHome->getDana(1601)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 18:54:25 --> Too few arguments to function App\Models\admin\ModelHome::getDana(), 1 passed in C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php on line 49 and exactly 3 expected
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php(49): App\Models\admin\ModelHome->getDana(1601)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 18:54:26 --> Too few arguments to function App\Models\admin\ModelHome::getDana(), 1 passed in C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php on line 49 and exactly 3 expected
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php(49): App\Models\admin\ModelHome->getDana(1601)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 18:55:10 --> Too few arguments to function App\Models\admin\ModelHome::getDana(), 1 passed in C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php on line 49 and exactly 3 expected
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php(49): App\Models\admin\ModelHome->getDana(1601)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 18:57:34 --> Too few arguments to function App\Models\admin\ModelHome::getDanaFull(), 0 passed in C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php on line 30 and exactly 2 expected
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php(30): App\Models\admin\ModelHome->getDanaFull()
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 18:58:20 --> Undefined variable: tahun
+#0 C:\wamp64\www\psg_new\app\Models\admin\ModelHome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 16, Array)
+#1 C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php(28): App\Models\admin\ModelHome->getForm1('2021', 'Triwulan 2')
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#4 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 19:00:20 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\psg_new\system\View\View.php(214): include()
+#1 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/index', Array, true)
+#3 C:\wamp64\www\psg_new\app\Views\admin\layout\v_content.php(3): view('admin/index')
+#4 C:\wamp64\www\psg_new\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#5 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#7 C:\wamp64\www\psg_new\app\Views\admin\layout\v_wrap.php(5): view('admin/layout/v_...')
+#8 C:\wamp64\www\psg_new\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#9 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#11 C:\wamp64\www\psg_new\app\Controllers\Admin\Home.php(50): view('admin/layout/v_...', Array)
+#12 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#13 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+#14 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-02-08 19:41:13 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\psg_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\psg_new\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(50): CodeIgniter\Model->__call('getSekolah', Array)
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->index()
+#4 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#5 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 19:41:36 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\psg_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\psg_new\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(50): CodeIgniter\Model->__call('getForm1', Array)
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->index()
+#4 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#5 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 19:41:46 --> Undefined variable: data
+#0 C:\wamp64\www\psg_new\app\Views\admin\lap1.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 42, Array)
+#1 C:\wamp64\www\psg_new\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/lap1', Array, true)
+#4 C:\wamp64\www\psg_new\app\Views\admin\layout\v_content.php(3): view('admin/lap1')
+#5 C:\wamp64\www\psg_new\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#6 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#8 C:\wamp64\www\psg_new\app\Views\admin\layout\v_wrap.php(5): view('admin/layout/v_...')
+#9 C:\wamp64\www\psg_new\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#10 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#12 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(69): view('admin/layout/v_...', Array)
+#13 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->index()
+#14 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#15 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-08 20:39:08 --> Trying to get property 'nama' of non-object
+#0 C:\wamp64\www\psg_new\app\Views\admin\lap1.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\p...', 121, Array)
+#1 C:\wamp64\www\psg_new\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/lap1', Array, true)
+#4 C:\wamp64\www\psg_new\app\Views\admin\layout\v_content.php(3): view('admin/lap1')
+#5 C:\wamp64\www\psg_new\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#6 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#8 C:\wamp64\www\psg_new\app\Views\admin\layout\v_wrap.php(5): view('admin/layout/v_...')
+#9 C:\wamp64\www\psg_new\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#10 C:\wamp64\www\psg_new\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\wamp64\www\psg_new\system\Common.php(1097): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#12 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(46): view('admin/layout/v_...', Array)
+#13 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->index()
+#14 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#15 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-08 21:33:56 --> Class 'App\Controllers\Admin\Mpdf' not found
+#0 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-08 21:34:23 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:34:49 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:36:34 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:37:03 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:37:25 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:37:46 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:40:50 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:41:54 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:42:12 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:43:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:43:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:43:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:44:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:44:40 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:44:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:45:45 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:46:38 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:47:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:47:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:48:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:48:49 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:48:56 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:49:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:51:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:53:36 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 21:54:04 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php on line 120
+#0 C:\wamp64\www\psg_new\app\Controllers\Admin\Lap.php(120): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\wamp64\www\psg_new\system\CodeIgniter.php(824): App\Controllers\Admin\Lap->cetak()
+#2 C:\wamp64\www\psg_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Lap))
+#3 C:\wamp64\www\psg_new\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\psg_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
